@@ -25,7 +25,7 @@ int main() {
     head->next = (struct Node*)malloc(sizeof(struct Node));
     strcpy(head->next->name, "mohammed");
     head->next->next = (struct Node*)malloc(sizeof(struct Node));
-    strcpy(head->next->next->name, "yamgur");
+    strcpy(head->next->next->name, "yagmur");
     head->next->next->next = NULL;
 
     printf("Linked list before deletion:\n");
